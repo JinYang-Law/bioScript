@@ -97,8 +97,8 @@ class Distinguish(object):
 
 def main():
     ## 待优化：args
-    bed = "ADXREG.LYN5.REF.bed"
-    path = "20211012_ADXLYN5_ADXPAN116-Pair_Pos"
+    bed = "LYN5.REF.bed"
+    path = "20211012-Pair_Pos"
     suffix = "ann"
     prefix = 'Case_2014'
     lyn5gene = Distinguish(bed, path, suffix, prefix)
